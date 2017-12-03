@@ -1,0 +1,57 @@
+r
+c    m
+v 
+
+Route::get('route_path', 'controller@function_name');
+
+// to show view 
+view () function 
+
+// to pass variable to view 
+view('view_name', [key => value, key => value])
+
+// blade
+yield();
+extends();
+
+section();
+endsection();
+
+@for()
+@endfor
+
+@if
+@endif
+
+@while
+@endwhile
+
+@foreach
+@endforeach
+
+//blade echo tag
+{{  }}
+
+
+// url() and asset();
+
+// where should i keep my views  and extension should be .blade.php
+resources > views folder
+// where I will keep my asset 
+public folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
