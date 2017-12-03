@@ -21,27 +21,30 @@ view ('name_of_view_file')
 ~~~php
 view('view_name', [key => value, key => value])
 view('view_name', compact('variable_name'))
-view('vie_name')->with(key, value);
-view('vie_name')->withKey(value);
+view('vie_name')->with(key, value)
+view('vie_name')->withKey(value)
 ~~~
 
 ## blade directive
 ~~~php
-yield()
-extends()
-section()
+yield('content')
+extends('parent_file')
+
+section('content')
 endsection()
+//for smaller content
+section('content', 'some content')
 
 @for()
 @endfor
 
-@if
+@if()
 @endif
 
-@while
+@while()
 @endwhile
 
-@foreach
+@foreach()
 @endforeach
 ~~~
 
@@ -52,8 +55,8 @@ endsection()
 
 ## blade helper function
 ~~~php
-url();
-asset();
+url()
+asset()
 ~~~
 
 ## views director
