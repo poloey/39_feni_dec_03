@@ -59,7 +59,7 @@ url()
 asset()
 ~~~
 
-## views director
+## views directory
 ~~~
 resources > views
 ~~~
